@@ -23,22 +23,16 @@ export default function EmailConfirmed() {
         </svg>
       </div>
       <h1 className="text-4xl font-semibold leading-tight text-brand-cream sm:text-5xl">
-        Your email is confirmed.
+        Your email is verified.
       </h1>
       <p className="mt-5 max-w-md text-lg leading-relaxed text-brand-cream/80">
-        Welcome to Guitar Atlas. You can now open the app and sign in with your
-        email and password.
+        Thanks for confirming. Head back to Guitar Atlas — the verification
+        banner will disappear next time you open the app.
       </p>
       <div className="mt-10 flex flex-wrap justify-center gap-4">
         <a
-          href="/download"
-          className="rounded-full bg-brand-primary px-6 py-3 font-body text-sm font-semibold tracking-wide text-brand-cream shadow-lg shadow-brand-primary/30 transition hover:bg-brand-primary/90"
-        >
-          Open the app
-        </a>
-        <a
           href="/"
-          className="rounded-full border border-brand-cream/40 px-6 py-3 font-body text-sm font-semibold tracking-wide text-brand-cream transition hover:border-brand-cream hover:bg-brand-cream/5"
+          className="rounded-full bg-brand-primary px-6 py-3 font-body text-sm font-semibold tracking-wide text-brand-cream shadow-lg shadow-brand-primary/30 transition hover:bg-brand-primary/90"
         >
           Back to home
         </a>
