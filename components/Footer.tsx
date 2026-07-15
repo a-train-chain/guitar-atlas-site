@@ -7,6 +7,15 @@ export default function Footer() {
         <div>
           <p className="font-display text-xl text-brand-cream">Guitar Atlas</p>
           <p className="mt-1 text-sm">Your map for learning guitar.</p>
+          <p className="mt-4 text-xs uppercase tracking-widest text-brand-cream/40">
+            More from Atlas
+          </p>
+          <a
+            href="https://www.pedalsteelatlas.com"
+            className="mt-1 block text-sm text-brand-secondary hover:text-brand-cream"
+          >
+            Pedal Steel Atlas — notation &amp; chord finder for pedal steel ↗
+          </a>
         </div>
         <div className="grid grid-cols-2 gap-x-12 gap-y-2 text-sm sm:flex sm:gap-8">
           <Link href="/features" className="hover:text-brand-cream">
