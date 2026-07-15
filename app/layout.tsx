@@ -19,7 +19,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://guitaratlas.app"),
+  metadataBase: new URL("https://www.guitaratlas.app"),
   title: {
     default: "Guitar Atlas — Your map for learning guitar",
     template: "%s · Guitar Atlas",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Guitar Atlas — Your map for learning guitar",
     description:
       "Learn scales, chords, and pieces with an integrated practice system that grows with you.",
-    url: "https://guitaratlas.app",
+    url: "https://www.guitaratlas.app",
     siteName: "Guitar Atlas",
     type: "website",
   },

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = "https://guitaratlas.app";
+const BASE = "https://www.guitaratlas.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/features", "/about", "/download", "/contact", "/privacy", "/terms"];
