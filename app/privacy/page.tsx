@@ -11,7 +11,7 @@ export default function Privacy() {
     <article className="mx-auto max-w-3xl px-6 py-24">
       <header className="border-b border-brand-cream/15 pb-8">
         <p className="font-body text-xs uppercase tracking-[0.2em] text-brand-cream/60">
-          Guitar Atlas · Last updated May 16, 2026
+          Guitar Atlas · Last updated July 16, 2026
         </p>
         <h1 className="mt-3 text-5xl font-semibold leading-tight text-brand-cream">
           Privacy Policy
@@ -38,6 +38,12 @@ export default function Privacy() {
             </li>
             <li>Chat content you send to Atlas Chat and contextual learning data needed to answer your music-related questions.</li>
             <li>Media or file uploads you choose to add to your account.</li>
+            <li>
+              Purchase and subscription status for Atlas Pro (plan, renewal
+              state, and expiry), so the app knows what to unlock. Payment
+              details such as card numbers are handled entirely by the payment
+              processors listed below and never reach our servers.
+            </li>
             <li>App diagnostics and crash data when crash reporting is enabled.</li>
           </ul>
         </Section>
@@ -74,6 +80,16 @@ export default function Privacy() {
             <li>Sentry for crash reporting and diagnostics.</li>
             <li>AI model providers for Atlas Chat and music analysis features.</li>
             <li>Music metadata, video, and media API providers for song discovery and enrichment features.</li>
+            <li>
+              RevenueCat for Atlas Pro subscription management (receives your
+              account id and purchase events so your subscription unlocks
+              across devices and apps).
+            </li>
+            <li>Apple App Store for purchases made in the iOS and macOS apps.</li>
+            <li>
+              Stripe for purchases made on the web (your card details go
+              directly to Stripe and are never visible to us).
+            </li>
           </ul>
           <p>Third-party services process data according to their own terms and privacy policies.</p>
         </Section>

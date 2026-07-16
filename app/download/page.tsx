@@ -16,9 +16,15 @@ export default function Download() {
         Coming soon.
       </h1>
       <p className="mt-6 text-lg leading-relaxed text-brand-cream/85">
-        Guitar Atlas is in pre-launch on iPhone, iPad, and Mac, with web access
-        right behind. Drop your email and we&apos;ll send a TestFlight invite
-        as soon as it&apos;s ready.
+        The full Guitar Atlas web app is live now at{" "}
+        <a
+          href="https://app.guitaratlas.app"
+          className="text-brand-primary hover:underline"
+        >
+          app.guitaratlas.app
+        </a>
+        . The iPhone, iPad, and Mac apps are in pre-release — drop your email
+        and we&apos;ll send a TestFlight invite as soon as it&apos;s ready.
       </p>
 
       <form
@@ -52,7 +58,7 @@ export default function Download() {
           status="TestFlight invites coming soon"
         />
         <PlatformCard name="Mac" status="Available in TestFlight" />
-        <PlatformCard name="Web" status="In development" />
+        <PlatformCard name="Web" status="Live at app.guitaratlas.app" />
       </div>
     </section>
   );

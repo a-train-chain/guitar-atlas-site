@@ -41,14 +41,22 @@ export default function Contact() {
         </h2>
         <div className="mt-6 space-y-6 text-brand-cream/80">
           <FAQ q="When does Guitar Atlas launch?">
-            We&apos;re finishing pre-launch testing now and aiming for an iOS
-            and Mac TestFlight invite very soon, with a public App Store
-            release shortly after.
+            The web app is live now at{" "}
+            <a
+              href="https://app.guitaratlas.app"
+              className="text-brand-primary hover:underline"
+            >
+              app.guitaratlas.app
+            </a>
+            . The iPhone, iPad, and Mac apps are in final pre-release testing,
+            with an App Store release coming soon.
           </FAQ>
           <FAQ q="Will there be a free tier?">
-            Yes. Core practice and the Fretboard Map are free for everyone.
-            Some advanced features (multi-student studio, deeper analytics)
-            will live behind a subscription.
+            Yes. Exploring stays free — including the full chord finder — and
+            every new account starts with a 14-day free trial of Atlas Pro,
+            the paid plan that unlocks creating and saving your own content.
+            One Atlas Pro subscription covers both Guitar Atlas and Pedal
+            Steel Atlas.
           </FAQ>
           <FAQ q="Can I import my existing songs / chord charts?">
             On day one, you can add any piece from Spotify or YouTube and we
