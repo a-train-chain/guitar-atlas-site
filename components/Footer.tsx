@@ -30,6 +30,9 @@ export default function Footer() {
           <Link href="/contact" className="hover:text-brand-cream">
             Contact
           </Link>
+          <Link href="/support" className="hover:text-brand-cream">
+            Support
+          </Link>
           <Link href="/privacy" className="hover:text-brand-cream">
             Privacy
           </Link>

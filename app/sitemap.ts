@@ -3,7 +3,16 @@ import type { MetadataRoute } from "next";
 const BASE = "https://www.guitaratlas.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/features", "/about", "/download", "/contact", "/privacy", "/terms"];
+  const routes = [
+    "",
+    "/features",
+    "/about",
+    "/download",
+    "/contact",
+    "/support",
+    "/privacy",
+    "/terms",
+  ];
   const now = new Date();
   return routes.map((path) => ({
     url: `${BASE}${path}`,
