@@ -26,10 +26,10 @@ export default function Support() {
           Email support
         </p>
         <a
-          href="mailto:hello@guitaratlas.app?subject=Guitar%20Atlas%20Support"
+          href="mailto:support@guitaratlas.app?subject=Guitar%20Atlas%20Support"
           className="mt-2 block font-display text-2xl text-brand-cream transition hover:text-brand-primary"
         >
-          hello@guitaratlas.app
+          support@guitaratlas.app
         </a>
         <p className="mt-6 text-brand-cream/70">
           To help us solve it faster, include your device and OS version (or
