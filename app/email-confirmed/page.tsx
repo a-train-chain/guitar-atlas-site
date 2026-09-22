@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Email confirmed",
@@ -26,16 +27,23 @@ export default function EmailConfirmed() {
         Your email is verified.
       </h1>
       <p className="mt-5 max-w-md text-lg leading-relaxed text-brand-cream/80">
-        Thanks for confirming. Head back to Guitar Atlas — the verification
-        banner will disappear next time you open the app.
+        Thanks for confirming. Open Guitar Atlas and sign in with the email
+        and password you just chose — if you still have the app open, go back
+        to it and tap &ldquo;I clicked the link, sign me in&rdquo;.
       </p>
       <div className="mt-10 flex flex-wrap justify-center gap-4">
         <a
-          href="/"
+          href="https://app.guitaratlas.app"
           className="rounded-full bg-brand-primary px-6 py-3 font-body text-sm font-semibold tracking-wide text-brand-cream shadow-lg shadow-brand-primary/30 transition hover:bg-brand-primary/90"
         >
-          Back to home
+          Open Guitar Atlas
         </a>
+        <Link
+          href="/"
+          className="rounded-full border border-brand-cream/30 px-6 py-3 font-body text-sm font-semibold tracking-wide text-brand-cream transition hover:border-brand-cream/60"
+        >
+          Back to home
+        </Link>
       </div>
     </section>
   );
